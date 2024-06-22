@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  padding: 20px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+#taskForm .form-group {
+  margin-bottom: 20px;
+}
+
+#taskList .list-group-item {
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#taskList .list-group-item h5 {
+  margin: 0 0 10px 0;
+}
+
+#taskList .list-group-item p {
+  margin: 0 0 5px 0;
+}
+
+#taskList .btn {
+  margin-right: 5px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
+.editable {
+  cursor: pointer;
+}
